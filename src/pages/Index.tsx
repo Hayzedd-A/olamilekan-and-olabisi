@@ -256,7 +256,7 @@ const Index = () => {
     address: "12, ore ofe street, Ikotun, Lagos, Nigeria",
     host: "Adewale and Olayinka",
     description:
-      "Join us for an unforgettable nikkah filled with fine dining, and wonderful event. We would be honored to have you celebrate this special occasion with us.",
+      "Join us for our memorable celebration of love, where two hearts become one. We would be honored to have you celebrate this special moment with us.",
   };
 
   const addToCalendar = () => {
