@@ -3,7 +3,8 @@ import { Button } from "../components/ui/button";
 import { Card } from "../components/ui/card";
 import AnimatedBackground from "../components/AnimatedBackground";
 import AnimatedFlower from "../components/AnimatedFlower";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Countdown from "../components/Countdown";
 
 // Dress code color options
 const dressCodeOptions = [
@@ -257,6 +258,7 @@ const Index = () => {
     host: "Adewale and Olayinka",
     description:
       "Join us for our memorable celebration of love, where two hearts become one. We would be honored to have you celebrate this special moment with us.",
+    eventDate: '2026-02-15T19:00:00',
   };
 
   const addToCalendar = () => {
@@ -486,6 +488,8 @@ END:VCALENDAR`;
           </Button>
         </div>
       </div>
+
+      <Countdown date={eventData.eventDate} />
 
       {/* Footer */}
       <footer className="border-t border-border/50 py-8 text-center">
