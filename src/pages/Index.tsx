@@ -23,14 +23,14 @@ const dressCodeOptions = [
     description: "Sophisticated brown headwear for men",
     details: "Brown fedoras, panama hats, or bowler hats. Pair with matching brown shoes and a light-colored suit for a distinguished look.",
   },
-  {
-    id: "black-shoes",
-    name: "Black Shoes",
-    color: "hsl(0 0% 0%)",
-    glowColor: "hsl(0 0% 20%)",
-    description: "Classic black footwear",
-    details: "Polished black shoes - oxfords, loafers, or heels. Ensure they are well-maintained and complement your outfit perfectly.",
-  },
+  // {
+  //   id: "black-shoes",
+  //   name: "Black Shoes",
+  //   color: "hsl(0 0% 0%)",
+  //   glowColor: "hsl(0 0% 20%)",
+  //   description: "Classic black footwear",
+  //   details: "Polished black shoes - oxfords, loafers, or heels. Ensure they are well-maintained and complement your outfit perfectly.",
+  // },
   {
     id: "gold-accent",
     name: "Gold Accent",
