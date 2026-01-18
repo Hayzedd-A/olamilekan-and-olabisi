@@ -253,10 +253,10 @@ const Index = () => {
     date: "Saturday, February 15, 2026",
     time: "10:00 AM - 03:00 PM",
     venue: "The Grand Ballroom",
-    address: "123 Luxury Avenue, New York, NY 10001",
-    host: "Adebayo and Olayinka",
+    address: "12, ore ofe street, Ikotun, Lagos, Nigeria",
+    host: "Adewale and Olayinka",
     description:
-      "Join us for an unforgettable evening filled with fine dining, live entertainment, and wonderful company. We would be honored to have you celebrate this special occasion with us.",
+      "Join us for an unforgettable nikkah filled with fine dining, and wonderful event. We would be honored to have you celebrate this special occasion with us.",
   };
 
   const addToCalendar = () => {
@@ -314,7 +314,7 @@ END:VCALENDAR`;
                     <X className="h-4 w-4" />
                   </Button>
                 </div>
-                <p className="text-sm text-muted-foreground">Please respond by Feb 1, 2026</p>
+                <p className="text-sm text-muted-foreground">Please respond before Feb 1, 2026</p>
               </div>
               <div className="p-6">
                 <RSVPForm onClose={() => setShowRSVPForm(false)} />
@@ -439,7 +439,7 @@ END:VCALENDAR`;
               <h3 className="mb-1 text-sm font-medium uppercase tracking-wider text-muted-foreground">
                 RSVP
               </h3>
-              <p className="text-lg text-muted-foreground">Please respond by Feb 1, 2026</p>
+              <p className="text-lg text-muted-foreground">Please respond before Feb 1, 2026</p>
               <p className="mt-2 text-sm text-primary font-medium group-hover:underline">
                 Click to respond →
               </p>
@@ -456,8 +456,8 @@ END:VCALENDAR`;
               <h3 className="mb-1 text-sm font-medium uppercase tracking-wider text-muted-foreground">
                 Contact
               </h3>
-              <p className="text-lg text-foreground">Adebayo Family</p>
-              <p className="mt-2 text-muted-foreground">olayinka@adebayo.com</p>
+              <p className="text-lg text-foreground">Adewale Family</p>
+              <p className="mt-2 text-muted-foreground">olayinka@adewale.com</p>
             </div>
           </Card>
         </div>
