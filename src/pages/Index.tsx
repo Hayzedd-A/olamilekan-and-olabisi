@@ -249,13 +249,13 @@ const Index = () => {
 
   // Sample event data - this can be dynamic later
   const eventData = {
-    title: "Olamilekan & Olabisi",
+    title: "Olamilekan & Yemisi",
     subtitle: "A celebration of unity and love",
     date: "Saturday, February 15, 2026",
     time: "10:00 AM - 03:00 PM",
     venue: "The Grand Ballroom",
     address: "12, ore ofe street, Ikotun, Lagos, Nigeria",
-    host: "Adewale and Olayinka",
+    host: "Adewale and Bello",
     description:
       "Join us for our memorable celebration of love, where two hearts become one. We would be honored to have you celebrate this special moment with us.",
     eventDate: '2026-02-15T19:00:00',
@@ -459,7 +459,7 @@ END:VCALENDAR`;
                 Contact
               </h3>
               <p className="text-lg text-foreground">Adewale Family</p>
-              <p className="mt-2 text-muted-foreground">olayinka@adewale.com</p>
+              <p className="mt-2 text-muted-foreground">Bello@adewale.com</p>
             </div>
           </Card>
         </div>
